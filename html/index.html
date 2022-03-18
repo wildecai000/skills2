@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Kids Read Uganda</title>
+        <link rel="stylesheet" href="../css/general.css">
+        <link rel="stylesheet" href="../java/randomcolor.java">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous">
+    </head>
+    <body>
+        <div class="site-wrap">
+            <div class="navigation-wrapper">
+                <div class="header">
+                    <div class="logo">
+                        <a href="index.html">
+                            <img src="../photos/kids-read-logo.png" width="300px" height="115px">
+                        </a>
+                    </div>
+                        <div>
+                            <ul class="nav">
+                             <section><ol class="home"><a href="index.html">Home</a></ol></section>
+                                <ol class="about"><a href="about.html">About</a></ol>
+                                <ol class="saltlake"><a href="saltlake.html">Salt Lake</a></ol>
+                                <ol class="getinvolved"><a href="getinvolved.html">Get Involved</a></ol>
+                                <ol class="ourprograms"><a href="ourprograms.html">Our Programs</a></ol>
+                                <ol class="donate"><a href="donate.html">Donate</a></ol>
+                            </ul>
+                        </div>
+                     <div>
+                            <ol><a href="contactus.html">Contact us!</a></ol>
+                    </div>
+                </div>
+            </div>
+            <style>
+                * {box-sizing: border-box}
+                body {font-family: Verdana, sans-serif; margin:0}
+                .mySlides {display: none}
+                img {vertical-align: middle;}
+                
+                /* Slideshow container */
+                .slideshow-container {
+                  max-width: 500px;
+                  position: relative;
+                  margin: auto;
+                }
+                
+                /* Next & previous buttons */
+                .prev, .next {
+                  cursor: pointer;
+                  position: absolute;
+                  top: 50%;
+                  width: auto;
+                  padding: 16px;
+                  margin-top: -22px;
+                  color: white;
+                  font-weight: bold;
+                  font-size: 18px;
+                  transition: 0.6s ease;
+                  border-radius: 0 3px 3px 0;
+                  user-select: none;
+                }
+                
+                /* Position the "next button" to the right */
+                .next {
+                  right: 0;
+                  border-radius: 3px 0 0 3px;
+                }
+                
+                /* On hover, add a black background color with a little bit see-through */
+                .prev:hover, .next:hover {
+                  background-color: rgba(0,0,0,0.8);
+                }
+                
+                /* Caption text */
+                .text {
+                  color: #f2f2f2;
+                  font-size: 15px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  bottom: 8px;
+                  width: 100%;
+                  text-align: center;
+                }
+                
+                /* Number text (1/3 etc) */
+                .numbertext {
+                  color: #f2f2f2;
+                  font-size: 12px;
+                  padding: 8px 12px;
+                  position: absolute;
+                  top: 0;
+                }
+                
+                /* The dots/bullets/indicators */
+                .dot {
+                  cursor: pointer;
+                  height: 15px;
+                  width: 15px;
+                  margin: 0 2px;
+                  background-color: #bbb;
+                  border-radius: 50%;
+                  display: inline-block;
+                  transition: background-color 0.6s ease;
+                }
+                
+                .active, .dot:hover {
+                  background-color: #717171;
+                }
+                
+                /* Fading animation */
+                .fade {
+                  -webkit-animation-name: fade;
+                  -webkit-animation-duration: 1.5s;
+                  animation-name: fade;
+                  animation-duration: 1.5s;
+                }
+                
+                @-webkit-keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+                
+                @keyframes fade {
+                  from {opacity: .4} 
+                  to {opacity: 1}
+                }
+                
+                /* On smaller screens, decrease text size */
+                @media only screen and (max-width: 300px) {
+                  .prev, .next,.text {font-size: 11px}
+                }
+                </style>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      <div class="numbertext">1 / 4</div>
+                      <img src="../photos/b35d5ce9f019c5339c8ae6d75733eaf5.jpg" style="width:100%">
+                      <div class="text"></div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">2 / 4</div>
+                      <img src="../photos/7c58d03b013f91622b01ada896502d83.jpg" style="width:100%">
+                      <div class="text"></div>
+                    </div>
+                    
+                    <div class="mySlides fade">
+                      <div class="numbertext">3 / 4</div>
+                      <img src="../photos/cc5da1d9d8dce3df587ca5f73ec4ef64.jpg" style="width:100%">
+                      <div class="text"></div>
+                    </div>
+                    <div class="mySlides fade">
+                        <div class="numbertext">4 / 4</div>
+                        <img src="../photos/fd8bbade5ae29922c94a894a30b53cbf.jpg" style="width:100%">
+                        <div class="text"></div>
+                      </div>
+                      <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+<a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span>
+  <span class="dot" onclick="currentSlide(4)"></span> 
+</div>
+<div class="greenbox">
+  <h1>Our Mission</h1>
+  <p>Since Fall of 2019, the sole purpose of Kids Read has been to provide under-served children in Salt Lake Title I schools and  Uganda with educational support. We have done this with a ‘Little Learners Library’ placed in each of our locations. Children are encouraged to take a book, read it and return it for another. In November of 2021 we opened Kids Read Salt Lake Valley.  Local Ambassadors and Tutors provide the help they need to learn to Read & Succeed. In August, 2021 we added the Feed 2 Read Nutrition Program to feed the minds and bodies of children in Uganda with the support of the Usana Foundation.</p>
+</div>
+<div class="yellowbox">
+<h1>Get Involved</h1>
+  <ol>
+    <li>Donate a library, in Uganda or the Salt Lake Valley.
+    </li>
+    <li>Sponsor a child into the UG CLIP home learning program
+    </li>
+     <li>Nourish a child with Feed 2 Read in Uganda</li>
+     </li>
+  <li>Essential Health & Wellness Extras
+  </li>
+  <li>
+    Hero Gift Set
+  </li>
+</div>
+<div class="redbox">
+  <h1>Our Programs</h1>
+  <h2>We have 4 programs currently in place.</h2>
+  <ul>
+    <ol>Little Learners' Libraries in  the  Salt Lake Valley and Uganda </ol>
+    <ol>CLIP (Children Learning Independently Program) Uganda</ol>
+    <ol>Health & Wellness</ol>
+    <ol>Feed 2 Read Nutrition Program</ol>
+  </ul>
+</div>
+<div class="whitebox">
+<h1 class="donate">Donate Now</h1>
+<div class="table">
+  <tr>
+      <td><img src="images/worksamples1.JPG"  class="grid-item1"></td>
+      <td><img src="images/worksamples2.JPG" class="grid-item2"></td>
+  </tr>
+  <tr>
+      <td><img src="WebFrameJATC/images/Asset2.png" class="grid-item3"></td>
+      <td><img src="WebFrameJATC/images/Code.JPG" class="grid-item4"></td>
+  </tr>
+  <tr>
+      <td><img src="WebFrameJATC/images/TableCode.JPG" class="grid-item5"></td>
+      <td><img src="WebFrameJATC/images/WebFinal.JPG" class="grid-item6"></td>
+  </tr>
+  </div>
+</div>
+<footer>
+  <div class="footer">
+    <div class="logo-footer">
+        <img src="../photos/kids-read-logo.png" alt="Logo" class="logo2">
+    </div>
+
+    <div class="links-wrapper">
+        <div class="nav-link">
+            <a href="index.html">Home</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="about.html">About</a>
+        </div>
+        
+        <div class="nav-link">
+            <a href="menu.html">Menu</a>
+        </div>
+
+        <div class="nav-link">
+            <a href="contact.html">Contact</a>
+        </div>
+    </div>
+
+    <div class="social-media-icons-wrapper">
+        <a href="#">
+            <i class="fab fa-instagram"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-twitter"></i>
+        </a>
+
+        <a href="#">
+            <i class="fab fa-facebook-f"></i>
+        </a>
+    </div>
+
+    <div class="copyright-wrapper">
+        &copy; Kids Read Uganda &#124; All rights reserved
+    </div>
+</footer>
+        </div>
+    </body>
+    </html>
